@@ -9,15 +9,7 @@ class InitialView extends GetView<InitialController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.add),
-            onPressed: () {
-              controller.btClick();
-            },
-          )
-        ],
+        title: const Text('Homerr'),
       ),
       body: SafeArea(
         child: Container(
